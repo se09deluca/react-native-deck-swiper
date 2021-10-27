@@ -752,7 +752,6 @@ class Swiper extends Component {
       <Animated.View
         key={key}
         style={firstCard ? swipableCardStyle : stackCardZoomStyle}
-        {...this._panResponder.panHandlers}
       >
         {firstCard ? renderOverlayLabel : null}
         {stackCard}
